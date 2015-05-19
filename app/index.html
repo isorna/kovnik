@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="es" ng-app="kovnik">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <title>Kovnik</title>
 	<base href="/">
 	<!--link rel="manifest" href="manifest.json"-->
-    <meta name="description" content="Gestor de listas de ejércitos para Warmachine y Hordes">
+    <meta name="description" content="Gestor de utilidades para Warmachine y Hordes">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,10 +25,25 @@
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/touch/apple-touch-icon-76x76-precomposed.png">
     <!-- iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6 -->
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+    <!-- iOS 6 & 7 iPad (retina, portrait) -->
+    <link href="img/startup/startup-tablet-portrait-retina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPad (retina, landscape) -->
+    <link href="img/startup/startup-tablet-landscape-retina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iOS 6 iPad (portrait) -->
+    <link href="img/startup/startup-tablet-portrait.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iOS 6 iPad (landscape) -->
+    <link href="img/startup/startup-tablet-landscape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPhone 5 -->
+    <link href="img/startup/startup-retina-4in.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iOS 6 & 7 iPhone (retina) -->
+    <link href="img/startup/startup-retina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iOS 6 iPhone -->
+    <link href="img/startup/startup.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
     <!-- Android Stock Browser and non-Retina iPhone and iPod Touch -->
     <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
     <!-- Fallback for everything else -->
     <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+    
 
     <!--
         Chrome 31+ has home screen icon 192×192 (the recommended size for multiple resolutions).
@@ -39,7 +54,7 @@
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="msapplication-TileColor" content="rgb(244,67,54)">
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -53,7 +68,7 @@
         Chrome Taskbar color
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
     -->
-    <meta name="theme-color" content="#f44336">
+    <meta name="theme-color" content="rgb(244,67,54)">
 
     <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
     <!--
@@ -66,24 +81,28 @@
 
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-controller="AppController" ng-cloak>
-    <md-toolbar>
-        <div class="md-toolbar-tools" layout="row" layout-sm="row" layout-padding>
-            <md-button class="md-icon-button" aria-label="Menu" ng-click="openMenu($event)">
-              <md-icon md-svg-src="{{oURL.icons.menu}}" class="s24" alt="Menu"></md-icon>
-            </md-button>
-            <h2>
-              <span>Kovnik {{subtitle}}</span>
-            </h2>
-            <span flex></span>
-            <md-button class="md-icon-button" aria-label="More">
-              <md-icon md-svg-src="{{oURL.icons.moreVert}}" class="s24" alt="More" ng-click="openPreferences($event)"></md-icon>
-            </md-button>
-        </div>
-    </md-toolbar>
-    <ng-include src="oURL.partials.menu"></ng-include>
-    <div layout="column" layout-fill ng-view>
-        
+<body ng-cloak ng-app="kovnik">
+    <div ng-controller="AppCtrl" layout="column">
+        <section layout="row" flex>
+            <md-toolbar ng-cloak>
+                <div class="md-toolbar-tools" layout="row" layout-sm="row" layout-padding>
+                    <md-button class="md-icon-button" aria-label="Menu" ng-click="openMenu($event)">
+                      <md-icon md-svg-src="{{oURL.icons.menu}}" class="s24" alt="Menu"></md-icon>
+                    </md-button>
+                    <h2>
+                      <span ng-cloak>Kovnik {{subtitle}}</span>
+                    </h2>
+                    <span flex></span>
+                    <md-button class="md-icon-button" aria-label="More">
+                      <md-icon md-svg-src="{{oURL.icons.moreVert}}" class="s24" alt="More" ng-click="openPreferences($event)"></md-icon>
+                    </md-button>
+                </div>
+            </md-toolbar>
+        </section>
+        <section layout="row" flex>
+            <ng-include src="oURL.partials.menu"></ng-include>
+            <div flex layout-padding ng-view></div>
+        </section>
     </div>
     
     <!-- Angular Material Dependencies -->
@@ -104,10 +123,13 @@
 	
 	
 	<!-- Firebase -->
-	<script src="//cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+	<script src="/bower_components/firebase/firebase.js"></script>
+	<!--script src="//cdn.firebase.com/js/client/2.1.2/firebase.js"></script-->
 	<!-- AngularFire -->
-	<script src="//cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script>
+	<script src="/bower_components/angularfire/dist/angularfire.js"></script>
+	<!--script src="//cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script-->
     <script src="js/main.js"></script>
+    <script src="js/module.data.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
