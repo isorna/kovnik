@@ -1,0 +1,27 @@
+<md-sidenav md-component-id="left" class="md-sidenav-left md-whiteframe-z2" md-is-locked-open="$mdMedia('gt-md')">
+    <md-toolbar class="md-warn">
+        <h1 class="md-toolbar-tools">Menu</h1>
+    </md-toolbar>
+    <md-content class="md-padding">
+        <!--p hide-md show-gt-md>
+        This sidenav is locked open on your device. To go back to the default behavior,
+        narrow your display.
+        </p-->
+        <md-list ng-controller="MenuItemsCtrl">
+            <md-subheader class="md-no-sticky">Elige la sección a la que quieres ir</md-subheader>
+            <md-list-item ng-click="navigateTo('home', $event)">
+                <md-icon md-svg-src="{{oURL.icons.home}}" class="s24" alt="Home"></md-icon>
+                <p>Home</p>
+            </md-list-item>
+            <md-list-item ng-click="navigateTo('scenarios', $event)">
+                <md-icon md-svg-src="{{oURL.icons.scenarios}}" class="s24" alt="Escenarios"></md-icon>
+                <p>Escenarios</p>
+            </md-list-item>
+            <md-divider ></md-divider>
+            <md-list-item ng-click="navigateTo('login', $event)">
+                <md-icon md-svg-src="{{oURL.icons.accountCircle}}" class="s24" alt="Account"></md-icon>
+                <p>Login</p>
+            </md-list-item>
+        </md-list>
+    </md-content>
+</md-sidenav>
