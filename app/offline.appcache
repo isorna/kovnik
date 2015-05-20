@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# 2015-05-20:v0.0.0
+
+# Explicitly cached entries
+# index.html
+404.html
+favicon.ico
+img/
+# css/
+bower_components/
+# js/
+# partials/
+# templates/
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+/ /offline.html
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+# ...

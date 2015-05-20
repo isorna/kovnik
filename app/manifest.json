@@ -1,0 +1,34 @@
+{
+  "short_name": "Kovnik",
+  "name": "Kovnik: Warmachine & Hordes utilities",
+  "icons": [
+    {
+      "src": "/img/touch/apple-touch-icon-72x72-precomposed.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/touch/touch-icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/touch/apple-touch-icon-144x144-precomposed.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/touch/apple-touch-icon-180x180-precomposed.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/touch/touch-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
