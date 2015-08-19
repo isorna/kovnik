@@ -1,0 +1,320 @@
+{
+  "items": {
+    "en": [
+      {
+        "id": "arcane-wonder",
+        "name": "Arcane Wonder",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "WONDROUS POWER",
+            "text": "While within 4˝ of this model, friendly models gain Empowered. (Once per turn when a model with Empowered casts an upkeep spell, reduce the COST of the spell by 1.)"
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "PLASMA NIMBUS",
+            "text": "If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers a POW 10 electrical damage roll unless this model was destroyed or removed from play by the attack."
+          }
+        ]
+      },
+      {
+        "id": "armory",
+        "name": "Armory",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "ASSET PROTECTION",
+            "text": "If this model is disabled, you can choose a non-disabled friendly model that you own within 4˝ to be destroyed. If another model is destroyed as a result of Asset Protection, remove 1 damage point from this model."
+          },
+          {
+            "name": "FIREPOWER",
+            "text": "While within 4˝ of this model, friendly models with light artillery gain boosted ranged attack damage rolls."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "bunker",
+        "name": "Bunker",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "GIRDED",
+            "text": "This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "IMPERVIOUS FLESH",
+            "text": "When this model is hit by a ranged attack, the attacker rolls one less damage die."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "effigy-of-valor",
+        "name": "Effigy of Valor",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "OBSTRUCT",
+            "text": "This model provides cover as if it were an obstruction."
+          },
+          {
+            "name": "VALOR",
+            "text": "Friendly models/units within 4˝ of this model cannot flee and immediately rally. Additionally, friendly models/units that begin their activation within 4˝ of this model gain Fearless for one round."
+          }
+        ]
+      },
+      {
+        "id": "fuel-cache",
+        "name": "Fuel Cache",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "FUEL",
+            "text": "Friendly models beginning their activation within 4˝ of this model can run or charge without spending focus or being forced."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "IT BURNS!",
+            "text": "If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers the Fire continuous effect unless this model was destroyed or removed from play by the attack."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "stockpile",
+        "name": "Stockpile",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "LASH",
+            "text": "This model and friendly warrior models B2B with it cannot be knocked down."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "UP AND AT ’EM",
+            "text": "After resolving continuous effects during your Maintenance Phase, friendly knocked down models within 4˝ of this model stand up."
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "id": "arcane-wonder",
+        "name": "Arcane Wonder",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "WONDROUS POWER",
+            "text": "While within 4˝ of this model, friendly models gain Empowered. (Once per turn when a model with Empowered casts an upkeep spell, reduce the COST of the spell by 1.)"
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "PLASMA NIMBUS",
+            "text": "If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers a POW 10 electrical damage roll unless this model was destroyed or removed from play by the attack."
+          }
+        ]
+      },
+      {
+        "id": "armory",
+        "name": "Armory",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "ASSET PROTECTION",
+            "text": "If this model is disabled, you can choose a non-disabled friendly model that you own within 4˝ to be destroyed. If another model is destroyed as a result of Asset Protection, remove 1 damage point from this model."
+          },
+          {
+            "name": "FIREPOWER",
+            "text": "While within 4˝ of this model, friendly models with light artillery gain boosted ranged attack damage rolls."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "bunker",
+        "name": "Bunker",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "GIRDED",
+            "text": "This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "IMPERVIOUS FLESH",
+            "text": "When this model is hit by a ranged attack, the attacker rolls one less damage die."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "effigy-of-valor",
+        "name": "Effigy of Valor",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "OBSTRUCT",
+            "text": "This model provides cover as if it were an obstruction."
+          },
+          {
+            "name": "VALOR",
+            "text": "Friendly models/units within 4˝ of this model cannot flee and immediately rally. Additionally, friendly models/units that begin their activation within 4˝ of this model gain Fearless for one round."
+          }
+        ]
+      },
+      {
+        "id": "fuel-cache",
+        "name": "Fuel Cache",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "FUEL",
+            "text": "Friendly models beginning their activation within 4˝ of this model can run or charge without spending focus or being forced."
+          },
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "IT BURNS!",
+            "text": "If this model is hit by a melee attack, immediately after the attack is resolved the attacking model suffers the Fire continuous effect unless this model was destroyed or removed from play by the attack."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          }
+        ]
+      },
+      {
+        "id": "stockpile",
+        "name": "Stockpile",
+        "base": "Large",
+        "def": "5",
+        "arm": "18",
+        "damage": "15",
+        "rules": [
+          {
+            "name": "INMOBILE",
+            "text": "This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360˚. It has no melee range, cannot engage, and is automatically hit by melee attacks."
+          },
+          {
+            "name": "LASH",
+            "text": "This model and friendly warrior models B2B with it cannot be knocked down."
+          },
+          {
+            "name": "OBJECTIVE",
+            "text": "This model cannot be placed, cannot channel spells, and cannot be chosen as a Prey target. This model cannot be targeted or damaged until the second player’s second turn. An objective cannot be engaged."
+          },
+          {
+            "name": "UP AND AT ’EM",
+            "text": "After resolving continuous effects during your Maintenance Phase, friendly knocked down models within 4˝ of this model stand up."
+          }
+        ]
+      }
+    ]
+  }
+}

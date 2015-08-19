@@ -1,0 +1,86 @@
+{
+  "app-name": {
+    "en": "Kovnik",
+    "es": "Kovnik"
+  },
+  "home": {
+    "en": "Home",
+    "es": "Inicio"
+  },
+  "scenarios": {
+    "en": "Scenarios",
+    "es": "Escenarios"
+  },
+  "objectives": {
+    "en": "Objectives",
+    "es": "Objetivos"
+  },
+  "menu": {
+    "en": "Menu",
+    "es": "Menú"
+  },
+  "translate": {
+    "en": "Traducir a español",
+    "es": "Translate to english"
+  },
+  "app-subhead": {
+    "en": "Warmachine & Hordes Utilities",
+    "es": "Utilidades para Warmachine y Hordes"
+  },
+  "home-p-1": {
+    "en": "This is an ALPHA version",
+    "es": "Esta es una versión ALPHA"
+  },
+  "home-p-2": {
+    "en": "Technical info and bug reports",
+    "es": "Información técnica e informe de errores"
+  },
+  "home-p-3": {
+    "en": "How to install in your android device",
+    "es": "Cómo instalarla en tu dispositivo android"
+  },
+  "home-p-4": {
+    "en": "Add to home screen",
+    "es": "Añadir a pantalla de inicio"
+  },
+  "random-scenario": {
+    "en": "Random Scenario",
+    "es": "Escenario aleatorio"
+  },
+  "kill-box": {
+    "en": "Kill Box",
+    "es": "Kill Box"
+  },
+  "base-size": {
+    "en": "Base Size",
+    "es": "Tamaño de peana"
+  },
+  "def": {
+    "en": "DEF",
+    "es": "DEF"
+  },
+  "arm": {
+    "en": "ARM",
+    "es": "ARM"
+  },
+  "damage": {
+    "en": "Damage",
+    "es": "Daño"
+  },
+  "yes": {
+    "en": "Yes",
+    "es": "Sí"
+  },
+  "no": {
+    "en": "No",
+    "es": "No"
+  },
+  "caching-complete": {
+    "en": "Caching complete! This app will work offline.",
+    "es": "¡Guardada correctamente! Esta app funcionará sin conexión."
+  },
+  "": {
+    "en": "",
+    "es": ""
+  }
+}

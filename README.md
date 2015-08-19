@@ -1,9 +1,11 @@
 # Kovnik
 
-## Gestor de listas de utilidades para Warmachine y Hordes
+## Warmachine & Hordes utilities
 
-### v 0.0.0
+### v0.0.1
 
-* Listas de escenarios
-* Selección de escenario aleatorio
-* Instalable en móvil Android
+* Steamroller 2015 Scenarios
+* Random Scenario
+* Steamroller 2015 Objectives
+* Offline support
+* Installable on Android devices
